@@ -1,5 +1,4 @@
 # ECE Maker Hub
-# ECE Maker Hub
 
 Hi! I'm a final-year Electronics & Communication Engineering student, passionate about IoT, drones, and embedded systems.
 
