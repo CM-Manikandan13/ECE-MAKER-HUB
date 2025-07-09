@@ -1,5 +1,7 @@
-#define BLYNK_TEMPLATE_ID "TMPL3trfhPDCJ"
-#define BLYNK_TEMPLATE_NAME "GAS Level Monitoring System"
+//CMM GAS LEVEL DETECTOR 13
+//this info you will get from blynk app 
+#define BLYNK_TEMPLATE_ID "**************"
+#define BLYNK_TEMPLATE_NAME "**************"
 
 #include <LiquidCrystal_I2C.h>
 #include <Wire.h>
@@ -14,9 +16,9 @@ BlynkTimer timer;
 WidgetLED LED(V1); // Virtual LED on Blynk app
 
 // WiFi + Blynk credentials
-char auth[] = "ntQmTeCvVuGc1DtdZ5cAiN8YP9y-kYi_";
-char ssid[] = "CMM13";
-char pass[] = "Password";
+char auth[] = "*******************";
+char ssid[] = "********";
+char pass[] = "********";
 
 // Hysteresis thresholds
 const int highThreshold = 55;
@@ -44,7 +46,7 @@ void setup() {
   lcd.setCursor(0, 0);
   lcd.print("WELCOME TO");
   lcd.setCursor(0, 1);
-  lcd.print("CMMGASLEVEL13");
+  lcd.print("project name here");
   delay(3000);
   lcd.clear();
 
